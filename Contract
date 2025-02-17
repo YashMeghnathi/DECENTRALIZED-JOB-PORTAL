@@ -4,7 +4,7 @@ contract JobPortal {
      address public admin;
      
      
-    
+     
  constructor() {            
         admin = msg.sender;
     }
