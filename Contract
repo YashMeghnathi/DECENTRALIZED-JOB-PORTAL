@@ -5,7 +5,7 @@ contract JobPortal {
      
      
      
- constructor() {            
+ constructor() {             
         admin = msg.sender; 
     }
     modifier onlyAdmin() {
