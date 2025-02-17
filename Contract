@@ -9,7 +9,7 @@ contract JobPortal {
         admin = msg.sender;  
     }
     modifier onlyAdmin() {
-        require(msg.sender == admin, "You are not the admin");
+        require(msg.sender == admin, "You are not the admin"); 
         _;
     }
     struct Applicant {
