@@ -6,7 +6,7 @@ contract JobPortal {
      
      
  constructor() {            
-        admin = msg.sender;
+        admin = msg.sender; 
     }
     modifier onlyAdmin() {
         require(msg.sender == admin, "You are not the admin");
